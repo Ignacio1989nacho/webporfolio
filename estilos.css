@@ -71,7 +71,7 @@ header{
 }
 .tech-list{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding-top: 10px;
 }
 .tech-list img{
@@ -174,4 +174,5 @@ footer{
     .red-social{
         margin: 0 10px 0 10px;
     }
+
 }
