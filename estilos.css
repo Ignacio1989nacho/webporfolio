@@ -176,3 +176,67 @@ footer{
     }
 
 }
+.cuatro {
+    background-image: url(giphy3.gif);
+    background-size: cover;
+    background-position: center;
+}
+
+.form-registro {
+   
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+}
+
+.input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+@media (max-width: 1000px) {
+    .form-registro {
+        width: 90%;
+    }
+}
+
+
+
+.btn-centered {
+    position:relative;
+  
+}
+
+@media (max-width: 1000px) {
+    .btn-centered {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+}
+
+.btn-round {
+    background-color: lightgray;
+    position:center;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-round:hover {
+    background-color: gray;
+}
+

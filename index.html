@@ -7,16 +7,17 @@
     <link rel="icon" href="loto.ico">
     <title>Ignacio Di Pardo </title>
 
+   
+   
+    <link rel="stylesheet" href="estilos.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="estilos.css">
+    
 
 </head>
 
-<style>
-   
-</style>
 
 <body>
     <header>
@@ -25,7 +26,7 @@
     <section class="uno">
         <div class="caja-central">
             <div class="caja-cara">
-                <img class="cara" src="image/fotolinkedin.png" alt="ignacio di pardo">            
+                <img class="cara" src="image/fotolinkedin.png" alt="ignacio di pardo foto">            
             </div>  
             <div class="caja-presentacion">
                 <div>      
@@ -128,6 +129,28 @@
             </div>
         </div>
     </section>
+    <section class="cuatro">
+        <div class="protecto4">
+            <form action="/controlador-registro"
+            method="POST"
+            class="form-registro"
+            id="form-registro"
+            enctype="multipart/form-data">
+                
+                <div class="form-group">
+                    <label for="email">EMAIL</label>
+                    <input name="email" class="input" type="mail" placeholder="@mail.com" required/>
+                </div>
+                <!-- Nuevo cuadro de entrada -->
+                <div class="form-group">
+                    <label for="nuevo-input">CONSULTA</label>
+                    <input name="nuevo-input" class="input" type="text" placeholder="Mensaje" required/>
+                </div>
+                <button type="submit" class="btn-round cuatro">ENVIAR</button>
+            </form>           
+        </div>
+        
+    </section>
     <footer>
         <h2>Contactame</h2>
             <div class="contacto">
@@ -142,8 +165,8 @@
                 <a href="https://github.com/Ignacio1989nacho" target="_blank">
                     <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" class="red-social" alt="">
                 </a>
-            </div>
-            
+            </div>           
     </footer>
+
 </body>
 </html>
